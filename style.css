@@ -168,3 +168,65 @@ footer {
     margin-bottom: 10px;
     color: #003366;
   }
+  .project-links img:hover {
+    transform: scale(1.05);
+  }
+  .project-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-item img:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-info {
+    margin-top: 10px;
+  }
+  
+  .project-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .project-desc {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 5px 0 0;
+  }
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* THIS is the hero — aligns content by their bottoms */
+    gap: 40px; /* space between projects, adjust as needed */
+  }
+  
+  .project {
+    text-align: center;
+  }
+  
+  .project img {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* or your own size */
+  }
